@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Old+Standard+TT&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f8f0d5008.js" crossorigin="anonymous"></script>
+        
+    <style>
+        form{
+            /* font-size: 20px; */
+            font-family: 'Dela Gothic One', cursive;
+            font-size: 14px;
+        
+        }
+          body h1{
+            font-family: 'Anton', sans-serif;
+          }
+        li{
+            display: inline-block;
+            margin-left: 130px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 750;
+    padding: 10px 20px;
+    border-radius: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        h1{
+            font-weight: 45px;
+            color: red;
+        }
+        fieldset{
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ui>
+            <li><a href="index.html"><i class="fa-solid fa-house-chimney-window"></i> Home page</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Login page</a></li>
+            <li><a href="box.html"><i class="fa-solid fa-book-open-reader"></i> Read here</a></li>
+            <li><a href="search.html"><i class="fa-brands fa-wikipedia-w"></i> Search from wiki</a></li>
+            <li><a href="social.html"><i class="fa-solid fa-user-group"></i> Social handle</a></li>
+        </ui>
+         </header>
+         <h1>5 pages website</h1><br>
+         <form action="">
+             <label for="name"></label>
+             <p>Name: <input type="text" name="Name" id="Name" placeholder="Enter your name"></p>
+             <label for="Email"></label>
+             <p>Email: <input type="text" name="email" id="Email" placeholder="Enter your email id"></p>
+             <label for="Password"></label>
+             <p>Password: <input type="password" name="" id="password" placeholder="Enter your password"></p>
+             <fieldset>
+                 <legend>like this page?</legend><br>
+                 <label for="like it"></label>
+                 <input type="radio" name="like" id="like it">Like It <br>
+                 <label for="dont"></label>
+                 <input type="radio" name="like" id="dont">Dont Like It <br><br>
+                 <textarea name="com" id="com" cols="30" rows="5">in your mind</textarea><br><br>
+                 <button>submit</button>
+             </fieldset>
+         </form>
+</body>
+</html>
